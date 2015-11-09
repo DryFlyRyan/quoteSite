@@ -1,0 +1,41 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: url(https://source.unsplash.com/category/nature/1600x900);
+  /*filter: sepia(1);
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1);*/
+  opacity: 0.5;
+}
+
+.quote {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.text-container {
+  margin-top: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.name {
+  right: 20%;
+  font-size: 80pt !important;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+h1 {
+  margin: auto;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+h3 {
+  text-align: right;
+}
